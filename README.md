@@ -1,6 +1,13 @@
-A simple paper class score analysing system for Combined maths A/L students. 
-ACCESS PREVIEW SITE HERE : combined-maths-lms-v1.vercel.app
-SAMPLE DATA IS USED.
-SIMPLE SETUP WITH NO DDATABASE CONNECTED. NO SIGNUP/LOGIN THEREFORE NO PRIVACY BREACH.
+A simple paper class score analysis system for Advanced Level (A/L) Combined Mathematics students. 
 
-AN UPGRADED SYSTEM IS UNDER DEVELOPMENT WITH SIGNUP/LOGIN OPTION, DATABASE CONNECTION , FEEDBACK SYSTEM , AI ANALYZING ENGINE FOR MORE DETAILED ANALYSIS , FOR MORE SUBJECTS AND PAPER STRUCTURES, ANALAYSIS SYSTEM PER QUESTION TO DEPICT REQUIRED FUTURE FOCUS POINTS AND MORE...
+### 🚀 Live Preview
+Explore the live application here: **[combined-maths-lms-v1.vercel.app](https://vercel.app)**  
+*(Note: This preview uses sample data. It is a simple frontend setup with no database connected and no signup/login required, ensuring total data privacy.)*
+
+### 🛠️ Upgraded System (Under Development)
+A more robust version is currently in development. Future updates will include:
+* **Authentication:** Secure user signup and login system.
+* **Database Integration:** Persistent data storage for tracking scores over time.
+* **AI Analyzing Engine:** Advanced insights and detailed performance metrics.
+* **Question-Level Analytics:** Detailed breakdown per question to highlight specific areas needing future focus.
+* **Expanded Scope:** Support for additional subjects, paper structures, and an integrated student feedback system.
