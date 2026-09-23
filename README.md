@@ -1,7 +1,7 @@
 A simple paper class score analysis system for Advanced Level (A/L) Combined Mathematics students. 
 
 ### 🚀 Live Preview
-Explore the live application here: **[combined-maths-lms-v1.vercel.app](https://vercel.app)**  
+Explore the live application here: **[combined-maths-lms-v1.vercel.app]**  
 *(Note: This preview uses sample data. It is a simple frontend setup with no database connected and no signup/login required, ensuring total data privacy.)*
 
 ### 🛠️ Upgraded System (Under Development)
