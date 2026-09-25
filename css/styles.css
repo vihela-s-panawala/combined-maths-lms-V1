@@ -33,14 +33,17 @@ body {
 }
 
 body.page-login {
-  background-image: linear-gradient(rgba(7, 7, 7, 0.7), rgba(25, 8, 12, 0.82)), url("file:///C:/Users/Vihela%20Panawala/Downloads/Clean%20%26%20Moody%20Competitive%20Gaming%20Setup.jpg");
+  background-image: linear-gradient(rgba(7, 7, 7, 0.7), rgba(25, 8, 12, 0.82)), url("../assets/gaming-setup-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 body.page-login.light-mode {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.38), rgba(245, 240, 238, 0.6)), url("file:///C:/Users/Vihela%20Panawala/Downloads/Clean%20%26%20Moody%20Competitive%20Gaming%20Setup.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.28), rgba(240, 233, 225, 0.42)), url("../assets/light-mode-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .page-shell {
@@ -568,7 +571,11 @@ body:not(.light-mode) .login-card,
 body:not(.light-mode) .admin-card {
   background: rgba(10, 10, 10, 0.86);
   color: var(--white);
+<<<<<<< HEAD
   border-color: rgba(111, 18, 34, 0.45);
+=======
+  border-color: rgba(111, 18, 34, 0.38);
+>>>>>>> eb91fbd (Add themed background assets and dark/light mode styling)
 }
 
 body:not(.light-mode) .banner {
@@ -581,7 +588,11 @@ body:not(.light-mode) input,
 body:not(.light-mode) textarea {
   background: #171717;
   color: var(--white);
+<<<<<<< HEAD
   border-color: rgba(111, 18, 34, 0.45);
+=======
+  border-color: rgba(111, 18, 34, 0.42);
+>>>>>>> eb91fbd (Add themed background assets and dark/light mode styling)
 }
 
 body:not(.light-mode) th {
