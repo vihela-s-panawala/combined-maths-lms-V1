@@ -1,17 +1,19 @@
 :root {
-  --gold: #d2a93c;
-  --gold-deep: #8a6217;
-  --black: #111111;
-  --white: #fdfdfd;
-  --panel: #fffdf7;
-  --muted: #6f6b64;
-  --border: #e6d7ab;
-  --danger: #c54d4d;
-  --success: #2d7d48;
-  --blue: #3a6fd8;
-  --red: #d9484a;
-  --yellow: #e3b22c;
-  --green: #2e9d5b;
+  --black: #070707;
+  --burgundy: #6f1222;
+  --burgundy-deep: #3b0d17;
+  --gold: var(--burgundy);
+  --gold-deep: var(--burgundy-deep);
+  --white: #f5f5f5;
+  --panel: #f8f4f2;
+  --muted: #5d4c4e;
+  --border: rgba(111, 18, 34, 0.2);
+  --danger: #9d1f2d;
+  --success: #2f6d5b;
+  --blue: #304b63;
+  --red: #a32b39;
+  --yellow: #b9626d;
+  --green: #3a7b63;
 }
 
 * {
@@ -25,20 +27,20 @@ html {
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #161616 0%, #2a220f 100%);
+  background: linear-gradient(135deg, #090909 0%, #2a0c12 100%);
   color: var(--black);
   min-height: 100vh;
 }
 
 body.page-login {
-  background-image: linear-gradient(rgba(8, 8, 8, 0.72), rgba(8, 8, 8, 0.8)), url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1400&q=80');
+  background-image: linear-gradient(rgba(7, 7, 7, 0.7), rgba(25, 8, 12, 0.82)), url("file:///C:/Users/Vihela%20Panawala/Downloads/Clean%20%26%20Moody%20Competitive%20Gaming%20Setup.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 body.page-login.light-mode {
-  background-image: linear-gradient(rgba(255, 248, 225, 0.42), rgba(255, 255, 255, 0.58)), url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1400&q=80');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.38), rgba(245, 240, 238, 0.6)), url("file:///C:/Users/Vihela%20Panawala/Downloads/Clean%20%26%20Moody%20Competitive%20Gaming%20Setup.jpg");
 }
 
 .page-shell {
@@ -90,15 +92,15 @@ body.page-login .page-shell {
   font-family: "Georgia", "Times New Roman", serif;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #f2c94c;
+  color: var(--burgundy);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   font-size: clamp(1.2rem, 1.6vw + 0.9rem, 2rem);
 }
 
 .banner {
   display: inline-block;
-  background: linear-gradient(90deg, rgba(210, 169, 60, 0.95), rgba(255, 242, 191, 0.95));
-  color: var(--black);
+  background: linear-gradient(90deg, var(--burgundy), var(--burgundy-deep));
+  color: var(--white);
   padding: 12px 18px;
   border-radius: 999px;
   font-family: Arial, Helvetica, sans-serif;
@@ -108,7 +110,7 @@ body.page-login .page-shell {
 
 .card {
   background: rgba(255, 255, 255, 0.96);
-  border: 1px solid rgba(210, 169, 60, 0.28);
+  border: 1px solid rgba(111, 18, 34, 0.28);
   border-radius: 24px;
   padding: 22px;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
@@ -162,8 +164,8 @@ button:hover {
 }
 
 .primary-btn {
-  background: var(--gold);
-  color: var(--black);
+  background: linear-gradient(90deg, var(--burgundy), var(--burgundy-deep));
+  color: var(--white);
   font-weight: 700;
 }
 
@@ -187,8 +189,8 @@ button:hover {
   margin-top: 18px;
   padding: 14px 16px;
   border-radius: 16px;
-  background: rgba(210, 169, 60, 0.09);
-  border: 1px solid rgba(210, 169, 60, 0.2);
+  background: rgba(111, 18, 34, 0.08);
+  border: 1px solid rgba(111, 18, 34, 0.18);
   text-align: left;
 }
 
@@ -381,7 +383,7 @@ td input {
 td input:focus {
   outline: none;
   border-color: var(--gold);
-  box-shadow: 0 0 0 2px rgba(210, 169, 60, 0.1);
+  box-shadow: 0 0 0 2px rgba(111, 18, 34, 0.1);
 }
 
 tr.highlight td {
@@ -443,7 +445,7 @@ canvas {
 .filter-btn.green { background: var(--green); }
 
 .achievement-box {
-  background: linear-gradient(90deg, rgba(210, 169, 60, 0.12), rgba(255, 242, 191, 0.4));
+  background: linear-gradient(90deg, rgba(111, 18, 34, 0.12), rgba(255, 255, 255, 0.46));
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 16px;
@@ -531,29 +533,30 @@ canvas {
 }
 
 body.light-mode {
-  background: linear-gradient(135deg, #f7f3e8 0%, #efe1b2 100%);
+  background: linear-gradient(135deg, #f8f6f3 0%, #efe5e1 100%);
 }
 
 body.light-mode .card {
-  background: #fffdfa;
+  background: rgba(255, 255, 255, 0.92);
 }
 
 body.light-mode .hero {
-  color: #1d1d1d;
+  color: #111111;
 }
 
 body.light-mode .banner {
-  background: linear-gradient(90deg, #f4d36f, #fff1b8);
+  background: linear-gradient(90deg, var(--burgundy), var(--burgundy-deep));
+  color: var(--white);
 }
 
 body.light-mode .theme-toggle {
-  color: #1d1d1d;
-  background: rgba(17, 17, 17, 0.08);
+  color: #111111;
+  background: rgba(17, 17, 17, 0.06);
   border-color: rgba(17, 17, 17, 0.15);
 }
 
 body:not(.light-mode) {
-  color: #f7f4eb;
+  color: var(--white);
 }
 
 body:not(.light-mode) .card,
@@ -563,27 +566,27 @@ body:not(.light-mode) .achievement-box,
 body:not(.light-mode) .modal-card,
 body:not(.light-mode) .login-card,
 body:not(.light-mode) .admin-card {
-  background: #151515;
-  color: #f7f4eb;
-  border-color: rgba(210, 169, 60, 0.3);
+  background: rgba(10, 10, 10, 0.86);
+  color: var(--white);
+  border-color: rgba(111, 18, 34, 0.45);
 }
 
 body:not(.light-mode) .banner {
-  background: linear-gradient(90deg, #8a6217, #d2a93c);
-  color: #fff8e8;
+  background: linear-gradient(90deg, var(--burgundy), var(--burgundy-deep));
+  color: var(--white);
 }
 
 body:not(.light-mode) select,
 body:not(.light-mode) input,
 body:not(.light-mode) textarea {
-  background: #1f1f1f;
-  color: #f7f4eb;
-  border-color: rgba(210, 169, 60, 0.4);
+  background: #171717;
+  color: var(--white);
+  border-color: rgba(111, 18, 34, 0.45);
 }
 
 body:not(.light-mode) th {
-  background: #1a1a1a;
-  color: #f0c75d;
+  background: #111111;
+  color: var(--white);
 }
 
 body:not(.light-mode) td,
@@ -592,25 +595,25 @@ body:not(.light-mode) p,
 body:not(.light-mode) li,
 body:not(.light-mode) h2,
 body:not(.light-mode) h3 {
-  color: #f7f4eb;
+  color: var(--white);
 }
 
 body:not(.light-mode) .secondary-btn,
 body:not(.light-mode) .chip-btn,
 body:not(.light-mode) .theme-toggle {
-  background: #242424;
-  color: #f7f4eb;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #201b1d;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 body:not(.light-mode) .primary-btn {
-  background: linear-gradient(90deg, #d2a93c, #8a6217);
-  color: #fff8e8;
+  background: linear-gradient(90deg, var(--burgundy), var(--burgundy-deep));
+  color: var(--white);
 }
 
 body:not(.light-mode) .instagram-link svg {
-  fill: #ff5b6b;
-  stroke: #ffe8ec;
+  fill: rgba(255, 255, 255, 0.12);
+  stroke: var(--white);
 }
 
 @media (max-width: 1024px) {
