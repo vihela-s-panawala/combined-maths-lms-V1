@@ -1,9 +1,19 @@
 # 🎓 Advanced Learning & Performance Management System
 
 > **A practical LMS and academic performance analysis platform built to track student progress, identify learning gaps, and support data-driven teaching.**
+> ---
+>
+> [![Status](https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge)](#-current-project-status)
+[![Prototype](https://img.shields.io/badge/Prototype-In%20Real--World%20Use-success?style=for-the-badge)](#-real-world-use)
+[![Students](https://img.shields.io/badge/Students-50%2B-blue?style=for-the-badge)](#-real-world-use)
+[![Frontend](https://img.shields.io/badge/Frontend-JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey?style=for-the-badge)](#-license)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vihela%20Panawala-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vihela-panawala/)
+[![Instagram](https://img.shields.io/badge/Instagram-v1h3l4-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/v1h3l4/)
 
 ---
+
 
 ## 📌 Overview
 
