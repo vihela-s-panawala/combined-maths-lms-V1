@@ -5,9 +5,9 @@ Explore the live application here: **[combined-maths-lms-v1.vercel.app]**
 *(Note: This preview uses sample data. It is a simple frontend setup with no database connected and no signup/login required, ensuring total data privacy.)*
 
 
-![Active](https://img.shields.io/badge/System_currently_active_in_a_practical_environment_(A_class_with_30--50_students)-red?style=flat-square)
+![Active](https://img.shields.io/badge/System_is_currently_active_in_a_practical_environment_(A_class_with_30--50_students)-red?style=flat-square)
 
-![Privacy](https://img.shields.io/badge/This_is_just_a_preview._Original_project_cannot_be_shared_due_to_student_data_privacy.-red?style=flat-square) 
+![Privacy](https://img.shields.io/badge/This_is_just_a_preview._Original_project_can't_be_shared_due_to_student_data_privacy.-red?style=flat-square) 
 
 A more robust version is currently in development. Future updates will include:
 
