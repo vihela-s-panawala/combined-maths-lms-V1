@@ -1,4 +1,4 @@
-export const PIN = ;
+export const PIN ='5151' ;
 
 export const initialStudents = [
   'Jon Snow',
