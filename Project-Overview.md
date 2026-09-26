@@ -268,6 +268,7 @@ The following components are part of the planned development roadmap:
 | Image Processing / AI | Answer-sheet analysis |
 | Analytics Engine | Question and topic-level insights |
 | Expanded Subject Support | Support for different subjects |
+| Expanded Paper Structure Support | Support for different Paper Structures such as MCQs/Essays/Structured Essays, etc. |
 | Feedback System | Student / teacher feedback |
 
 ---
