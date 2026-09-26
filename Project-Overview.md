@@ -2,11 +2,6 @@
 
 > **A practical LMS and academic performance analysis platform built to track student progress, identify learning gaps, and support data-driven teaching.**
 
-[![Status](https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge)](#-project-status)
-[![Prototype](https://img.shields.io/badge/Prototype-In%20Real--World%20Use-success?style=for-the-badge)](#-real-world-use)
-[![Students](https://img.shields.io/badge/Students-50%2B-blue?style=for-the-badge)](#-real-world-use)
-[![Frontend](https://img.shields.io/badge/Frontend-JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-TBD-lightgrey?style=for-the-badge)](#-license)
 
 ---
 
@@ -136,8 +131,7 @@ Recommended Focus
 
 ---
 
-## 🤖 AI-Powered Analysis — Planned
-
+## 🤖 AI-Powered Analysis — BETA
 One of the major future components is an AI-driven analysis engine.
 
 The planned system will use student performance data to identify:
@@ -154,7 +148,7 @@ The AI component is **part of the planned development roadmap and is not being r
 
 ---
 
-# 🧠 Answer-Sheet Analysis — Planned
+# 🧠 Answer-Sheet Analysis — BETA
 
 A future version is intended to explore an **image-reading AI pipeline** capable of analysing submitted answer sheets.
 
@@ -188,7 +182,7 @@ This is a longer-term development area and will require additional experimentati
 
 ---
 
-# 📚 Multi-Subject Support — Planned
+# 📚 Multi-Subject Support — BETA
 
 Although the project initially focuses on **A/L Combined Mathematics**, the architecture is being designed with expansion in mind.
 
@@ -233,24 +227,6 @@ The public preview is intentionally limited and does **not** represent the compl
 **[Open Live Preview](https://combined-maths-lms-v1.vercel.app/)**
 
 > **Note:** The public preview currently uses sample data and is intended to demonstrate the interface and workflow. Real student information is not exposed through the public demo.
-
----
-
-# 📸 Screenshots
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Performance Analysis
-
-![Performance Analysis](screenshots/performance-analysis.png)
-
-### Student Performance
-
-![Student Performance](screenshots/student-performance.png)
-
-> Replace the image paths above with the actual screenshots inside the repository.
 
 ---
 
@@ -394,11 +370,6 @@ The current tuition-class deployment provides an opportunity to continuously ide
 - [ ] Expanded performance analytics
 - [ ] Improved reporting
 - [ ] Multi-tenant implementation improvements
-
----
-
-## 🔮 Future
-
 - [ ] AI-powered performance analysis
 - [ ] Automated weakness detection
 - [ ] Targeted quiz recommendations
@@ -511,7 +482,7 @@ As the system evolves, contribution guidelines may be added for:
 
 # 📄 License
 
-License information will be added as the project progresses.
+Copyright 2026 Vihela Panawala
 
 ---
 
@@ -522,16 +493,6 @@ License information will be added as the project progresses.
 IT / MIT Undergraduate  
 Sri Lanka
 
-Interested in:
-
-- Full-Stack Development
-- Automation
-- Cloud & DevOps
-- Software Architecture
-- FinTech & FinOps
-- Data & Analytics
-- AI-driven Applications
-- Solution Design
 
 ---
 
@@ -542,3 +503,18 @@ Interested in:
 **From marks → data → insights → better decisions.**
 
 </p>
+
+---
+
+# 📸 Screenshots
+
+<img width="1893" height="981" alt="Screenshot 2026-09-26 155003" src="https://github.com/user-attachments/assets/b5e5ef25-9a33-494a-9356-e9526105759f" />
+<img width="1881" height="986" alt="Screenshot 2026-09-26 155123gggg" src="https://github.com/user-attachments/assets/55af1aec-ca75-463f-8e24-bbad9faf1d9a" />
+<img width="655" height="957" alt="Screenshot 2026-09-26 155406" src="https://github.com/user-attachments/assets/b25057a5-2b28-4ca5-a23e-a6000e4713c6" />
+<img width="645" height="283" alt="Screenshot 2026-09-26 155437" src="https://github.com/user-attachments/assets/e610f1a1-a6ca-42b9-97ef-f1ddb02f8b8d" />
+
+<img width="1906" height="975" alt="Screenshot 2026-09-26 155255" src="https://github.com/user-attachments/assets/9df1316b-2156-4664-a1e2-327bd4e12cf8" />
+<img width="1901" height="977" alt="Screenshot 2026-09-26 155201" src="https://github.com/user-attachments/assets/c13b58d3-df5a-4ff0-9104-c44bd0b67390" />
+<img width="1911" height="977" alt="Screenshot 2026-09-26 155232" src="https://github.com/user-attachments/assets/0a02d264-7a64-442f-9fa9-c74ed05d403a" />
+<img width="1917" height="982" alt="Screenshot 2026-09-26 155332" src="https://github.com/user-attachments/assets/8a818ce2-e4a7-45be-9fa4-58e84a8bd5f2" />
+---
