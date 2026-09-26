@@ -499,10 +499,9 @@ Copyright 2026 Vihela Panawala
 
 # 👨‍💻 Developer
 
-**Vihela Panawala**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vihela%20Panawala-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vihela-s-panawala/)
+[![Instagram](https://img.shields.io/badge/Instagram-v1h3l4-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/v1h3l4/)
 
-IT / MIT Undergraduate  
-Sri Lanka
 
 
 ---
